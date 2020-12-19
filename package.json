@@ -1,0 +1,25 @@
+{
+  "name": "backend-practica",
+  "version": "1.0.0",
+  "description": "chart data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiikeVi/data-api.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Miguel Valenzuela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiikeVi/data-api/issues"
+  },
+  "homepage": "https://github.com/MiikeVi/data-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
