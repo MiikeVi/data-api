@@ -26,7 +26,6 @@ function enviarDataFiltrada(filter){
 
 /*Métodos para retornar sesiones separadas según años, -
 meses o días, dependiendo del tiempo entre los filtros startDate y endDate*/
-//nota: el array enviado debe ser
 function sessionsByYear(){}
 function sessionsByMonth(){}
 function sessionsByDays(){}
@@ -114,7 +113,7 @@ function filtrar(filter){
     return aux2;
 }
 
-/* Calcula sesiones de un usuario guardandolas en un nuevo array- 
+/* Calcula sesiones de un usuario considerando el filtro intervalo, guardandolas en un nuevo array- 
 junto con fechas de primera y última sesión *modularizar* */ 
 function contarSesionesUsuario(filter){ 
     arrayFiltrado = filtrar(filter);
